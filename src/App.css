@@ -1,21 +1,8 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
 #nav-parentSec{
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   height: 60px;
   background-color: rgb(246, 246, 246);
   border-bottom: 1px solid rgb(210, 210, 210);
@@ -26,45 +13,27 @@
   width: 100%;
   margin-left:10px ;
   margin-right: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #nav-childDiv1{
   max-width: 180px;
   width: 100%;
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 #nav-childDiv2{
   max-width: 600px;
   width: 100%;
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 #Nav-faBars{
@@ -81,12 +50,8 @@
 #Nav-searchbar{
   max-width: 350px;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   height: 24px;
   position: relative;
 }
@@ -129,8 +94,6 @@
 }
 
 #home-whole-sec{
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -140,16 +103,9 @@
   left: 0;
   height: 100vh;
   width: 20%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   border-right: 1px solid rgb(176, 176, 176);
 }
 
@@ -170,22 +126,14 @@
 
 #home-mainSection{
   width: 80%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 #mainSection-Parentdiv{
   width: 95%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;margin-top: 15px;
+  justify-content: space-between;margin-top: 15px;
 }
 
 #mainSection-childdiv1{
@@ -199,16 +147,10 @@
 }
 
 #mainSection-childdiv1-child1{
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   height: 40px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .feedbach-hover{
@@ -231,33 +173,22 @@
   padding: 0px 14px;
   border: 1px solid rgb(158, 158, 158);
   border-radius: 5px;
-  background: -webkit-gradient(linear,left top, left bottom,from(rgb(242, 242, 242)),to(white));
-  background: -o-linear-gradient(top,rgb(242, 242, 242),white);
   background: linear-gradient(to bottom,rgb(242, 242, 242),white);
   background-color: rgb(181, 180, 180);
 }
 
 .startwritingcode-child-parentdiv{
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 .startwritingcode-child-childs{
   width: 48.5%;
   border: 1px solid rgb(179, 179, 179);
   border-radius: 2px;
-  -webkit-box-shadow: 0px 0px 2px gray;
-          box-shadow: 0px 0px 2px gray;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  box-shadow: 0px 0px 2px gray;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   padding: 20px 0px;
 }
 .sec3-green-btn{
@@ -275,15 +206,9 @@
 }
 
 #footer{
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: start;
+  justify-content: space-between;
+  align-items:flex-start;
   max-width: 80%;
   width: 100%;
   margin-top: 30px;
@@ -309,16 +234,11 @@
   top: 10px;
   left: 10px;
   z-index: 999;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   max-width: 250px;
   width: 100%;
-  -webkit-box-shadow: 0px 0px 5px 2px gray;
-          box-shadow: 0px 0px 5px 2px gray;
+  box-shadow: 0px 0px 5px 2px gray;
 }
 
 #options-notVisible{
@@ -340,8 +260,6 @@
 
 #footer-child1{
   max-width: 27%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -350,12 +268,8 @@
 }
 
 #intro-youselfSection-MobieCorrection{
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 1080px) {
@@ -390,13 +304,8 @@
     width: 45%;
   }
   .startwritingcode-child-parentdiv{
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    align-items: center;
   }
   .startwritingcode-child-childs{
     width: 90%;
@@ -433,16 +342,11 @@
     max-width: 150px;
   }
   #footer{
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   #footer-child1{
     max-width: 100%;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     margin-bottom: 10px;
   }
   
@@ -472,10 +376,7 @@
     width: 24px;
   }
   #intro-youselfSection-MobieCorrection{
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     line-height: 2;
   }
 }
