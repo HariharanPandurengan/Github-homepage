@@ -1,38 +1,382 @@
-.App {
-  text-align: center;
+#nav-parentSec{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background-color: rgb(246, 246, 246);
+  border-bottom: 1px solid rgb(210, 210, 210);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#nav-parentDiv{
+  max-width: 1370px;
+  width: 100%;
+  margin-left:10px ;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#nav-childDiv1{
+  max-width: 180px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#nav-childDiv2{
+  max-width: 600px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#Nav-faBars{
+  color: rgb(127, 127, 127);
+  border: 1px solid rgb(176, 176, 176);
+  padding: 5px 5px;
+  border-radius: 5px;
+}
+
+#nav-faGithub{
+  font-size: 30px;
+}
+
+#Nav-searchbar{
+  max-width: 350px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 24px;
+  position: relative;
+}
+
+#Nav-searchbar-tabMobile{
+  display: none;
+}
+
+.nav-faSearch{
+  font-size: 13px;
+  margin-right: 8px;
+  margin-left: 2px;
+  color: gray;
+}
+
+#navbar-absoluteButton{
+  border: none;
+  background-color: rgba(250, 235, 215, 0);
+  margin-top: 3px;
+}
+
+#navbar-absoluteButtonsvg{
+  fill: rgb(104, 104, 104);
+}
+
+.nav-childiv2Border{
+  border: 1px solid rgb(176, 176, 176);
+  padding: 2px 4px;
+  border-radius: 5px;
+  color: gray;
+}
+
+.Nav-svg{
+  fill: gray;
+}
+
+#nav-profileimg{
+  width: 30px;
+  border-radius: 50%;
+}
+
+#home-whole-sec{
+  display: flex;
+}
+
+#Homeleft-sec{
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 20%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-right: 1px solid rgb(176, 176, 176);
+}
+
+#leftsec-newBTN{
+  background-color: rgb(8, 104, 8);
+  border: none;
+  border-radius: 5px;
+  color: rgb(234, 232, 232);
+  font-size: 12px;
+  font-weight: lighter;
+  
+}
+
+#Homeleft-sec-input{
+  border: 1px solid rgb(202, 201, 201);
+  background-color: rgb(246, 245, 245);
+}
+
+#home-mainSection{
+  width: 80%;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#mainSection-Parentdiv{
+  width: 95%;
+  display: flex;
+  justify-content: space-between;margin-top: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+#mainSection-childdiv1{
+  width: 68%;
+  /* border: 1px solid black; */
+}
+
+#mainSection-childdiv2{
+  width: 30%;
+  /* border: 1px solid black; */
+}
+
+#mainSection-childdiv1-child1{
+  display: flex;
+  height: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feedbach-hover{
+  color: blue;
+  font-weight: 100;
+  font-size: small;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.feedbach-hover:hover{
+ text-decoration: underline;
+}
+
+#update-homepage-notvivible{
+  display: none;
+}
+
+#update-homepage-vivible{
+  padding: 0px 14px;
+  border: 1px solid rgb(158, 158, 158);
+  border-radius: 5px;
+  background: linear-gradient(to bottom,rgb(242, 242, 242),white);
+  background-color: rgb(181, 180, 180);
+}
+
+.startwritingcode-child-parentdiv{
+  display: flex;
+  justify-content: space-between;
+}
+
+.startwritingcode-child-childs{
+  width: 48.5%;
+  border: 1px solid rgb(179, 179, 179);
+  border-radius: 2px;
+  box-shadow: 0px 0px 2px gray;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+}
+.sec3-green-btn{
+  background-color: rgba(10, 97, 10, 0.937);
+  border: none;
+}
+
+.workflowGIU-links{
+  color: blue;
+  cursor: pointer;
+}
+
+.workflowGIU-links:hover{
+  text-decoration: underline;
+}
+
+#footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  max-width: 80%;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.footer-lis{
+  color: gray;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.footer-lis:hover{
+  color: blue;
+  text-decoration: underline;
+}
+
+#options-Visible{
+  display: block;
+  border: 1px solid gray;
+  background-color: white;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  max-width: 250px;
+  width: 100%;
+  box-shadow: 0px 0px 5px 2px gray;
+}
+
+#options-notVisible{
+  display: none;
+}
+
+#options-li{
+  color: gray;
+  fill: gray;
+}
+
+#options-li:hover{
+  background-color: rgb(223, 220, 220);
+}
+
+#Homeleft-sec-input{
+  width: 92%;
+}
+
+#footer-child1{
+  max-width: 27%;
+  display: flex;
+}
+
+#footer-child2{
+  max-width: 50%;
+}
+
+#intro-youselfSection-MobieCorrection{
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1080px) {
+  #mainSection-childdiv2{
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+  #mainSection-childdiv1{
+    width: 100%;
+  }
+  #Homeleft-sec{
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #Nav-searchbar{
+    display: none;
+  }
+  #Nav-searchbar-tabMobile{
+    display: block;
+  }
+  #nav-childDiv2{
+    max-width: 300px;
+  }
+  #footer{
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #Homeleft-sec{
+    width: 45%;
+  }
+  .startwritingcode-child-parentdiv{
+    flex-direction: column;
+    align-items: center;
+  }
+  .startwritingcode-child-childs{
+    width: 90%;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #nav-childDiv2{
+    max-width: 250px;
+  }
+  .home-leftsec-ptags{
+    font-size: 12px;
+  }
+  #Homeleft-sec{
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  #Homeleft-sec{
+    display: none;
+  }
+  #home-mainSection{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .mobileHidden{
+    display: none;
+  }
+  #nav-childDiv2{
+    max-width: 150px;
+  }
+  #footer{
+    flex-direction: column;
+  }
+  #footer-child1{
+    max-width: 100%;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  #footer-child2{
+    max-width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 380px) {
+  #nav-childDiv1{
+    max-width: 130px;
+  }
+  #nav-faGithub{
+    font-size: 20px;
+  }
+  #Nav-faBars{
+    font-size: 9px;
+  }
+  #nav-childDiv2{
+    max-width: 130px;
+  }
+  #nav-childDiv2{
+    max-width: 100px;
+  }
+  #nav-profileimg{
+    width: 24px;
+  }
+  #intro-youselfSection-MobieCorrection{
+    flex-direction: column;
+    line-height: 2;
   }
 }
