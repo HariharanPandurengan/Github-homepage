@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import "../App.css"
-import {FaBars,FaGithub,FaPlus,FaCaretDown,FaDotCircle, FaSearch, FaAngleRight} from "react-icons/fa"
+import {FaBars,FaGithub,FaPlus,FaCaretDown, FaSearch} from "react-icons/fa"
 
 function Navbar() {
     const[options,setOptions] = useState(false);

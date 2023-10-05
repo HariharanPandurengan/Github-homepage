@@ -145,7 +145,7 @@ function HomePage() {
                                     <div style={{width:"92%"}}>
                                         <p style={{margin:"0",fontWeight:"600",fontSize:"14px",marginBottom:"10px"}}>Simplify your development workflow with a GUI</p>
                                         <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",height:"50px"}}>
-                                            <img width={40} src="https://github.githubassets.com/images/modules/dashboard/onboarding/gh-desktop.png"/>
+                                            <img alt="img" width={40} src="https://github.githubassets.com/images/modules/dashboard/onboarding/gh-desktop.png"/>
                                             <p style={{fontSize:"12px"}}><span className="workflowGIU-links">Install GitHub Desktop</span> to visualize, commit, and push changes without ever touching the command line. </p>
                                         </div>
                                     </div>
